@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ToggleButton
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/camera_switch"
+		android:paddingTop="@dimen/padding_standard"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textOn=""
+		android:textOff=""
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:button="@drawable/toggle_style"
+		android:background="@null"
+		/>

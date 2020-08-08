@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/list_item_height"
+              android:layout_marginLeft="@dimen/margin_medium"
+              android:layout_marginRight="@dimen/margin_medium"
+              android:layout_weight="1"
+              android:orientation="horizontal">
+
+	<TextView
+			android:id="@+id/defaultBarcodeTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.3"
+			android:text="@string/element_text"/>
+
+	<TextView
+			android:id="@+id/refBarcodeTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.3"
+			android:text="@string/element_text"/>
+	<ImageView
+			android:id="@+id/refCheckedIcon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.1"
+			android:src="@drawable/ic_check_mark_ok_24dp"/>
+</LinearLayout>
